@@ -1,3 +1,10 @@
+@font-face {
+    /* 字形名稱 */
+    font-family: Ngaan;
+    /* 字形來源 src url 路徑 */
+    src: url(./font/I.Ngaan.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +16,10 @@ nav {
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 30px;
+}
+
+#logo span {
+    font-family: Ngaan;
+    font-size: 36px;
+    font-weight: 900;
 }
