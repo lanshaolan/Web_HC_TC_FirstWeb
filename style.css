@@ -132,6 +132,7 @@ section h1 {
     font-size: 32px;
     padding-bottom: 5px;
     color: #252525;
+    text-align: left;
 }
 
 section hr {
@@ -185,7 +186,7 @@ section hr {
 
 #contact form {
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto 0;
 }
 
 #contact form div {
@@ -206,16 +207,31 @@ section hr {
 }
 
 #contact input[type="submit"] {
-    width: 300px;
+    width: 500px;
     background-color: #252525;
     color: white;
-    margin: 10px 0;
-    border: 0;
+    margin: 50px 0;
+    border: 1px solid #252525;
     transition: 0.3s;
+    padding: 20px;
 }
 
 #contact input[type="submit"]:hover {
     background-color: white;
     color: #252525;
     border: 1px solid #252525;
+}
+
+/* 頁尾 */
+footer {
+    padding: 100px;
+    text-align: center;
+    background: #252525;
+    color: white;
+}
+
+footer span {
+    font-family: Ngaan;
+    font-size: 20px;
+    padding: 10px;
 }
